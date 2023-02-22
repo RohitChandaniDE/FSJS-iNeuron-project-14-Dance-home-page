@@ -160,6 +160,7 @@
     .circles {
         margin-top: -110px;
     }
+    
     .dot {
             display: flex;
             height: 25px;
@@ -169,6 +170,240 @@
             margin: -92px;
             margin-left: 630px;
           }
+
+    /* Responsive Design */
+
+    @media screen and (max-width: 1430px) {
+        
+        .leftimage {
+            width: 400px;
+        }
+
+        .logo {
+            margin-left: -500px;
+        }
+
+        .creativity {
+            margin-top: -800px;
+            margin-left: 430px;
+            margin-bottom: 800px;
+        }
+        
+        .Text {
+            margin-left: 500px;
+            }
+            
+        .vl1 {
+            margin-left: 270px;
+            }
+        
+        .dot {
+            margin-left: 438px;
+              }
+        .bottomright {
+                margin-left: 650px;
+            }
+    }
+
+    @media screen and (max-width: 1250px) {
+        
+        .list {
+            margin-right: -85px;
+        }
+
+        .vl {
+            height: 200px;
+            margin-top: -15px;
+        }
+        .creativity {
+            margin-top: -800px;
+        }
+
+        .creativity h1 {
+            font-size: 100px;
+            line-height: 130px;
+        }
+
+        .icons {
+            margin-left: 600px;
+         }
+
+        .Text {
+            margin-left: 455px;
+            line-height: 58px;
+            }
+            
+        .vl1 {
+            margin-left: 250px;
+            }
+        
+        .dot {
+            margin-left: 418px;
+              }
+        .bottomright {
+                margin-left: 600px;
+            }
+        .arrowimage {
+               display: none;
+            }
+    }
+
+    @media screen and (max-width: 1020px) {
+       
+        .logo {
+            margin-left: -320px;
+            height: 30px;
+            margin-top: 65px;
+        }
+
+        .leftimage {
+            width: 250px;
+        }
+        
+        .list {
+            font-size: 15px;
+            gap: 30px;
+            margin-right: 1px;
+        }
+
+        .vl {
+            height: 150px;
+            margin-left: -100px;
+            margin-top: 7px;
+        }
+        
+        .creativity {
+            margin-top: -800px;
+            margin-left: 250px;
+        }
+        
+
+        .creativity h1 {
+            font-size: 50px;
+            line-height: 50px;
+        }
+
+        .creativity h3 {
+            font-size:15px;
+            line-height: 20px;
+            margin-left: 350px;
+            margin-top: -30px;
+        }
+
+        .icons {
+            margin-left: 450px;
+            margin-top: -180px;
+         }
+
+         .socialmedia {
+            margin: 20px;
+        }
+
+        .Text {
+            margin-left: 300px;
+            line-height: 65px;
+            }
+            
+        .vl1 {
+            margin-left: 95px;
+            }
+        
+        .dot {
+            margin-left: 263px;
+              }
+
+        .circles {
+                margin-top: -250px;
+            }
+        .bottomright {
+                margin-left: 440px;
+            }
+
+        .bottomimage {
+                height: 335px;
+                width: 320px;
+            }
+    }
+
+    @media screen and (max-width:735px) {
+        
+        .vl {
+            display: none;
+        }
+
+        .list {
+            display: none;
+        }
+
+        .leftimage {
+            width: 435px;
+        }
+
+        .logo {
+            margin-left: -420px;
+            height: 40px;
+        }
+
+        .container2 {
+            margin-top: 860px;
+        }
+
+        .creativity {
+            margin-left: 10px;
+        }
+
+        .creativity h1 {
+            font-size: 60px;
+            line-height: 50px;
+        }
+        .icons {
+            margin-left: 325px;
+            margin-top: -250px;
+         }
+
+         .socialmedia {
+            margin: 40px;
+        }
+
+        .creativity h3 {
+            font-size:30px;
+            line-height: 30px;
+            margin-left: 185px;
+            margin-top: 30px;
+        }
+
+        .button {
+            margin-right: 60px;
+            margin-top: -720px;
+        }
+
+        .Text {
+            margin-left: 200px;
+            line-height: 65px;
+            }
+            
+        .vl1 {
+            margin-left: -30px;
+            }
+        
+        .dot {
+            margin-left: 138px;
+              }
+
+        .circles {
+                margin-top: -770px;
+            }
+        .bottomright {
+                margin-left:-10px;
+                text-align: center;
+                margin-top: 100px;
+            }
+
+        .bottomimage {
+                height: 379px;
+                width: 435px;
+            }
+    }
      
 
     
